@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<title>Document</title>
+<style type="text/css">
+
+body,html {
+	height: 100%;
+	width: 100%;
+}
+
+.cor
+{
+	color:black;
+}
+ 
+.teste1
+ {
+display: flex;
+justify-content: center;
+border: solid;
+width: 250px;
+background-color: #4c742a96;
+
+ }
+
+.qwe
+{
+	display: flex;
+	justify-content: center;
+}
+body{
+	background:url(imagens/jlg.jpg) ;
+	background-repeat:no-repeat ;
+	background-size:100% 100% ;
+}
+</style>
+</head>
+<body>
+
+<div class="qwe">
+<div class="teste1">
+	<form>
+
+
+		<h1 class="cor">LOGUIN</h1>
+
+		<h1 class="cor">usuario</h1>
+		<input type="text" id="Usuario_input">
+
+		<h1 class="cor">senha</h1>
+		<input type="password" id="Senha_input">
+		<button onclick="Teste()">entrar</button>
+</div class="cor">
+
+
+</div>
+
+</body>
+
+<script type="text/JavaScript">
+    function Teste() 
+        {
+            var a = document.getElementById("Usuario_input").value;
+            var b = document.getElementById("Senha_input").value;
+    
+            if ( a == "joao" & b == 321 ) 
+            {
+            alert("Pode acessar campeão!");            
+            }
+            else 
+            {
+            alert("Mete o pé");
+            }
+        }    
+	</script>
+</html>
